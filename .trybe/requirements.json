@@ -2,7 +2,7 @@
   "requirements": [
     {
       "bonus": false,
-      "description": "1 - Crie um `input` com o `id` `carta-texto` onde a pessoa usuária poderá digitar o conteúdo da carta",
+      "description": "1 - Crie um `input` com o `ID` `carta-texto` onde a pessoa usuária poderá digitar o conteúdo da carta",
       "enabled": true,
       "identifier": null,
       "order": 1,
