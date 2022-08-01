@@ -1,0 +1,148 @@
+{
+  "requirements": [
+    {
+      "bonus": false,
+      "description": "1 - Crie um `input` com o `ID` `carta-texto` onde a pessoa usuária poderá digitar o conteúdo da carta",
+      "enabled": true,
+      "identifier": null,
+      "order": 1,
+      "skill_ids": []
+    },
+    {
+      "bonus": false,
+      "description": "2 - Crie um parágrafo com `id` `carta-gerada` onde a pessoa usuária verá o resultado de sua carta misteriosa",
+      "enabled": true,
+      "identifier": null,
+      "order": 2,
+      "skill_ids": []
+    },
+    {
+      "bonus": false,
+      "description": "3 - Crie um botão com `ID` `criar-carta` que deve gerar a carta misteriosa ao ser clicado",
+      "enabled": true,
+      "identifier": null,
+      "order": 3,
+      "skill_ids": []
+    },
+    {
+      "bonus": false,
+      "description": "4 - Faça com que o input com `id` `carta-texto` permaneça com o texto digitado após clicar no botão de `id` `criar-carta`",
+      "enabled": true,
+      "identifier": null,
+      "order": 4,
+      "skill_ids": []
+    },
+    {
+      "bonus": false,
+      "description": "5 - Crie a mensagem 'Por favor, digite o conteúdo da carta!' para caso a pessoa usuária não preencha o campo ou preencha apenas com espaços em branco",
+      "enabled": true,
+      "identifier": null,
+      "order": 5,
+      "skill_ids": []
+    },
+    {
+      "bonus": false,
+      "description": "6 - Crie a classe `newspaper`",
+      "enabled": true,
+      "identifier": null,
+      "order": 6,
+      "skill_ids": []
+    },
+    {
+      "bonus": false,
+      "description": "7 - Crie a classe `magazine1`",
+      "enabled": true,
+      "identifier": null,
+      "order": 7,
+      "skill_ids": []
+    },
+    {
+      "bonus": false,
+      "description": "8 - Crie a classe `magazine2`",
+      "enabled": true,
+      "identifier": null,
+      "order": 8,
+      "skill_ids": []
+    },
+    {
+      "bonus": false,
+      "description": "9 - Crie a classe `medium`",
+      "enabled": true,
+      "identifier": null,
+      "order": 9,
+      "skill_ids": []
+    },
+    {
+      "bonus": false,
+      "description": "10 - Crie a classe `big`",
+      "enabled": true,
+      "identifier": null,
+      "order": 10,
+      "skill_ids": []
+    },
+    {
+      "bonus": false,
+      "description": "11 - Crie a classe `reallybig`",
+      "enabled": true,
+      "identifier": null,
+      "order": 11,
+      "skill_ids": []
+    },
+    {
+      "bonus": false,
+      "description": "12 - Crie a classe `rotateleft`",
+      "enabled": true,
+      "identifier": null,
+      "order": 12,
+      "skill_ids": []
+    },
+    {
+      "bonus": false,
+      "description": "13 - Crie a classe `rotateright`",
+      "enabled": true,
+      "identifier": null,
+      "order": 13,
+      "skill_ids": []
+    },
+    {
+      "bonus": false,
+      "description": "14 - Crie a classe `skewleft`",
+      "enabled": true,
+      "identifier": null,
+      "order": 14,
+      "skill_ids": []
+    },
+    {
+      "bonus": false,
+      "description": "15 - Crie a classe `skewright`",
+      "enabled": true,
+      "identifier": null,
+      "order": 15,
+      "skill_ids": []
+    },
+    {
+      "bonus": false,
+      "description": "16 - Adicione as classes de forma aleatória a fim de estilizar as palavras",
+      "enabled": true,
+      "identifier": null,
+      "order": 16,
+      "skill_ids": []
+    },
+    {
+      "bonus": true,
+      "description": "17 - Adicione a possibilidade de alterar o estilo de uma palavra específica ao clicar nela",
+      "enabled": true,
+      "identifier": null,
+      "order": 17,
+      "skill_ids": []
+    },
+    {
+      "bonus": true,
+      "description": "18 - Crie um parágrafo com o `id` `carta-contador` que deve contar o número de palavras geradas naquela carta",
+      "enabled": true,
+      "identifier": null,
+      "order": 18,
+      "skill_ids": []
+    }
+  ]
+}
