@@ -52,7 +52,7 @@ const checkLetterContent = (content) => {
   });
 };
 
-describe('1 - Crie um `input` com o `id` `carta-texto` onde a pessoa usuária poderá digitar o conteúdo da carta', () => {
+describe('1 - Crie um `input` com o `ID` `carta-texto` onde a pessoa usuária poderá digitar o conteúdo da carta', () => {
   beforeEach(() => {
     cy.visit('./index.html');
   });
