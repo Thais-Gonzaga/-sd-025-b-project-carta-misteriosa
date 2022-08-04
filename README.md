@@ -47,7 +47,7 @@ O não cumprimento de um requisito, total ou parcialmente, impactará em sua ava
   <summary><strong>‼️ Antes de começar a desenvolver</strong></summary><br />
 
 1. Clone o repositório
-  * `git clone git@github.com:tryber/sd-0x-project-mistery-letter.git`
+  * `git clone git@github.com:tryber/sd-025-b-project-carta-misteriosa.git`
   * Entre na pasta do repositório que você acabou de clonar:
     * `sd-0x-project-mistery-letter`
 
