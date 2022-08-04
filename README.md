@@ -49,7 +49,7 @@ O não cumprimento de um requisito, total ou parcialmente, impactará em sua ava
 1. Clone o repositório
   * `git clone git@github.com:tryber/sd-025-b-project-carta-misteriosa.git`
   * Entre na pasta do repositório que você acabou de clonar:
-    * `sd-0x-project-mistery-letter`
+    * `sd-025-b-project-carta-misterios`
 
 2. Instale as dependências
     * `npm install`
