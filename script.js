@@ -22,6 +22,8 @@ p.id = 'carta-gerada';
 main.appendChild(p);
 
 function spam() {
+  console.log(input.value);
+  if (input.value === '' || input.value === ' ') return 'Por favor, digite o conteúdo da carta.';
   const array = input.value.split(' ');
   const word = [];
   for (let index = 0; index < array.length; index += 1) {

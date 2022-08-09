@@ -1,3 +1,18 @@
 h1 {
   text-align: center;
 }
+
+.newspaper {
+  background: antiquewhite;
+  font-family: Times New Roman, Times, serif;
+  font-weight: 700;
+}
+
+.magazine1 {
+  background: teal;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 900;
+  color: white;
+  text-transform: uppercase;
+}
+
