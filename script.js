@@ -21,13 +21,25 @@ const p = document.createElement('p');
 p.id = 'carta-gerada';
 main.appendChild(p);
 
+const style = ['newspaper', 'magazine1', 'magazine2'];
+const size = ['medium', 'big', 'reallybig'];
+const rotation = ['rotateleft', 'rotateright'];
+const slope = ['skewleft', 'skewright'];
+
+function addClass() {
+  const sort = Math.round(Math.random() * 2);
+  console.log(sort);
+  const sort1 = Math.round(Math.random() * 1);
+  console.log(sort1);
+  return `${style[sort]} ${size[sort]} ${rotation[sort1]} ${slope[sort1]}`;
+}
+
 function spam() {
-  console.log(input.value);
   if (input.value === '' || input.value === ' ') return 'Por favor, digite o conteúdo da carta.';
   const array = input.value.split(' ');
   const word = [];
   for (let index = 0; index < array.length; index += 1) {
-    word.push(`<span>${array[index]}</span>`);
+    word.push(`<span class="${addClass()}">${array[index]}</span>`);
   }
   return word.join(' ');
 }
