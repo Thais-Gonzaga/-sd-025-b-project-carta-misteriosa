@@ -33,9 +33,7 @@ const slope = ['skewleft', 'skewright'];
 
 function addClass() {
   const sort = Math.round(Math.random() * 2);
-  console.log(sort);
   const sort1 = Math.round(Math.random() * 1);
-  console.log(sort1);
   return `${style[sort]} ${size[sort]} ${rotation[sort1]} ${slope[sort1]}`;
 }
 
@@ -59,3 +57,9 @@ function createLetter() {
   p.innerHTML = spam();
 }
 button.addEventListener('click', createLetter);
+
+function chargeClass(event) {
+  const click = event.target;
+  click.className = addClass();
+}
+p.addEventListener('click', chargeClass);

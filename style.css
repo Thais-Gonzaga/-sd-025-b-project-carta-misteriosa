@@ -53,3 +53,7 @@ h1 {
 .skewright {
   transform: skewX(-10deg);
 }
+
+#carta-gerada {
+  border: 1px solid black;
+}
