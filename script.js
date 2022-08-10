@@ -21,6 +21,11 @@ const p = document.createElement('p');
 p.id = 'carta-gerada';
 main.appendChild(p);
 
+const contLetter = document.createElement('p');
+contLetter.id = 'carta-contador';
+contLetter.innerText = 0;
+main.appendChild(contLetter);
+
 const style = ['newspaper', 'magazine1', 'magazine2'];
 const size = ['medium', 'big', 'reallybig'];
 const rotation = ['rotateleft', 'rotateright'];
@@ -34,10 +39,16 @@ function addClass() {
   return `${style[sort]} ${size[sort]} ${rotation[sort1]} ${slope[sort1]}`;
 }
 
+function contador(array) {
+  contLetter.innerText = array.length;
+  return contLetter.innerText;
+}
+
 function spam() {
   if (input.value === '' || input.value === ' ') return 'Por favor, digite o conteúdo da carta.';
   const array = input.value.split(' ');
   const word = [];
+  contador(array);
   for (let index = 0; index < array.length; index += 1) {
     word.push(`<span class="${addClass()}">${array[index]}</span>`);
   }
